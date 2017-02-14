@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # learn-rails
-gem 'activerecord-tableless'
+# gem 'activerecord-tableless'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
