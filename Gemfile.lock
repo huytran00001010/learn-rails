@@ -233,7 +233,7 @@ DEPENDENCIES
   puma (~> 3.0)
   rails (= 5.0.1)
   rails_layout
-  sass-rails (~> 5.0)
+  sass-rails
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)

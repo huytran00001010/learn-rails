@@ -8,16 +8,21 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
     <%= csrf_meta_tags %>
   </head>
-  <body>
+  <body class="container">
     <header>
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
+       <%= render 'layouts/messages' %>
+       <%= yield %>
     </main>
-    <footer>
-      
+    <footer class="row">
+      <div class="col-md-4">
+        © Copyright 2017 Huy Tran | Privacy
+      </div>
+      <div class="col-md-8">
+        All right reserved.
+      </div>
     </footer>
   </body>
 </html>
