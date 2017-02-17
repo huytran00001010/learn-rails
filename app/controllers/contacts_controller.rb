@@ -3,7 +3,10 @@ class ContactsController <ApplicationController
     @contact = Contact.new secure_params
     
     if @contact.valid?
+      # Write to google spreadsheet
       @contact.update_spreadsheet
+      # Send email
+      UserMailer.contact_email(@contact).deliver
       flash[:notice] = "Message sent from #{@contact.name}"
       redirect_to root_path
     else

@@ -31,3 +31,7 @@ gem "simple_form" to create a form in html by "Rails Way"
 "google_drive" gem to drive file to Google Drive or Spreadsheet. 
 Must have credential for remote to Google Drive
 
+Sending mail needs model, view and mailer to send email to outer
+
+Access google drive and send maill needs more time to hanle, So that can implement asynchronously (queueing system). That is advance topic of Rails
+
