@@ -25,6 +25,5 @@ popular front-end framework as Bootstrap, Foundatetion
 In this time 17/Feb/2017, The "ActiveRecord-Tableless" is not supported for Rails 5.x
 Alternative way to implement here: https://github.com/softace/activerecord-tableless/issues/30
 
-gem 'bootstrap-sass' and 'sass-rails' to use the Twitter Bootstrap and handle *.sass file 
-files, The 
-
+gem 'bootstrap-sass' and 'sass-rails' to use the Twitter Bootstrap and handle *.sass file files,
+The "Asset Pipeline" will merge and compact all javascript and stylesheets file in application.html.erb
