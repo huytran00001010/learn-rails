@@ -37,6 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 # learn-rails
 # gem 'activerecord-tableless'
+# gem "activerecord-tableless", "~> 1.0"
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
