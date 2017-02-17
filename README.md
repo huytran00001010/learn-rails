@@ -1,8 +1,6 @@
 # Learning Rails
 Learing Rails with a tutorial from RailsApps project.
-Github for repository, Rails 5.0.1 is Framwork, Ruby 2.3.0 is platform,
-
-Cloud9 is IDE and envairoment, Horoku is Testing and Production hosting
+Github for repository, Rails 5.0.1 is Framework, Ruby 2.3.0 is platform, Cloud9 is IDE and envairoment, Heroku is Testing and Production hosting
 
 New data type in Ruby is Symbol:
 Vietnamese is: http://phocode.com/ruby/ruby-kieu-du-lieu-phan-1/
@@ -27,3 +25,9 @@ Alternative way to implement here: https://github.com/softace/activerecord-table
 
 gem 'bootstrap-sass' and 'sass-rails' to use the Twitter Bootstrap and handle *.sass file files,
 The "Asset Pipeline" will merge and compact all javascript and stylesheets file in application.html.erb
+
+gem "simple_form" to create a form in html by "Rails Way"
+
+"google_drive" gem to drive file to Google Drive or Spreadsheet. 
+Must have credential for remote to Google Drive
+
