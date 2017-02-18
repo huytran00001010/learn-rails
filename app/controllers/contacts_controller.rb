@@ -4,7 +4,7 @@ class ContactsController <ApplicationController
     
     if @contact.valid?
       # Write to google spreadsheet
-      @contact.update_spreadsheet
+      # @contact.update_spreadsheet
       # Send email
       UserMailer.contact_email(@contact).deliver
       flash[:notice] = "Message sent from #{@contact.name}"

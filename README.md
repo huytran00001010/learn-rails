@@ -1,6 +1,6 @@
 # Learning Rails
 Learing Rails with a tutorial from RailsApps project.
-Github for repository, Rails 5.0.1 is Framework, Ruby 2.3.0 is platform, Cloud9 is IDE and envairoment, Heroku is Testing and Production hosting
+Github for repository, Rails 5.0.1 is Framework, Ruby 2.3.0 is platform, Cloud9 is IDE and envairoment
 
 New data type in Ruby is Symbol:
 Vietnamese is: http://phocode.com/ruby/ruby-kieu-du-lieu-phan-1/
@@ -34,4 +34,6 @@ Must have credential for remote to Google Drive
 Sending mail needs model, view and mailer to send email to outer
 
 Access google drive and send maill needs more time to hanle, So that can implement asynchronously (queueing system). That is advance topic of Rails
+
+"gibbon" gem to wrap the "MailChimpAPI" for mailing list
 
