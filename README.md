@@ -37,3 +37,4 @@ Access google drive and send maill needs more time to hanle, So that can impleme
 
 "gibbon" gem to wrap the "MailChimpAPI" for mailing list
 
+There are 2 kinds of instance variable is "self" and "@": That are different can read here: http://stackoverflow.com/questions/1693243/instance-variable-self-vs
